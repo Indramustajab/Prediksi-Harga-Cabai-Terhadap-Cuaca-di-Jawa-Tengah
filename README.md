@@ -1,4 +1,4 @@
-># Prediksi-Harga-Cabai-Terhadap-Cuaca-di-Jawa-Tengah
+># Prediksi Harga Cabai Terhadap Cuaca di Jawa Tengah
 >>Analisis data (Pemodelan Prediktif Regresi Linear & Evaluation Mean Squared Error (MSE))
 
 ## Permasalahan utama dalam bisnis cabai di Jawa Tengah dan juga di daerah lain di Indonesia adalah fluktuasi harga yang tinggi. 
@@ -97,3 +97,27 @@ Prediksi untuk Mei_harga:
 Mean Squared Error: 28237494.888882816
 
 ```
+
+## Plot Regresi Linear
+
+<table>
+  <tr>
+    <td><img src="https://github.com/Indramustajab/Prediksi-Harga-Cabai-Terhadap-Cuaca-di-Jawa-Tengah/blob/main/Grafik%20Plot/download%20(1).png" width="1500" height="600" /></td>
+
+  </tr>
+</table>
+Penyebaran Data:
+- Dengan membandingkan titik-titik biru (actual) dan titik-titik merah (predicted), kita bisa melihat seberapa baik model regresi linier memprediksi harga cabe berdasarkan curah hujan.
+- Jika titik-titik merah mendekati titik-titik biru, berarti model memiliki performa yang baik dalam memprediksi harga cabe.
+Kesalahan Prediksi:
+
+- Jarak antara titik biru dan merah menunjukkan seberapa besar kesalahan prediksi (prediction error). Semakin dekat titik merah dengan titik biru, semakin kecil kesalahan prediksi untuk bulan tersebut.
+  
+Kecenderungan:
+- Plot ini juga dapat menunjukkan kecenderungan atau pola antara curah hujan dan harga cabe. Misalnya, apakah harga cabe cenderung naik atau turun dengan bertambahnya curah hujan.
+
+Variasi Data:
+
+- Plot juga membantu kita memahami variasi dalam data curah hujan dan harga cabe untuk setiap bulan. Misalnya, kita bisa melihat apakah ada bulan dengan variasi curah hujan atau harga cabe yang lebih besar dibandingkan bulan lainnya.
+<br></br>
+
