@@ -53,8 +53,33 @@ Data Uji:
               157.00                195.00             176.00             221.00           105.00            103.00             34.00                29.00                  29.00               399.00                350.00                286.00          19000           28700        35527        31261      29000       84678       77269          64277            64083          48411           30605           23800
 ```
 
+## Plot Regresi Linear
+
+<table>
+  <tr>
+    <td><img src="https://github.com/Indramustajab/Prediksi-Harga-Cabai-Terhadap-Cuaca-di-Jawa-Tengah/blob/main/Grafik%20Plot/download%20(1).png" width="1500" height="600" /></td>
+
+  </tr>
+</table>
+Penyebaran Data
+
+- Dengan membandingkan titik-titik biru (actual) dan titik-titik merah (predicted), bisa dilihat seberapa baik model regresi linier memprediksi harga cabe berdasarkan curah hujan.
+- Jika titik-titik merah mendekati titik-titik biru, berarti model memiliki performa yang baik dalam memprediksi harga cabe.
+
+Kesalahan Prediksi
+
+- Jarak antara titik biru dan merah menunjukkan seberapa besar kesalahan prediksi (prediction error). Semakin dekat titik merah dengan titik biru, semakin kecil kesalahan prediksi untuk bulan tersebut.
+  
+Kecenderungan
+- Plot dapat menunjukkan kecenderungan atau pola antara curah hujan dan harga cabe. Misalnya, apakah harga cabe cenderung naik atau turun dengan bertambahnya curah hujan.
+
+Variasi Data
+
+- Plot membantu memahami variasi dalam data curah hujan dan harga cabe untuk setiap bulan. Misalnya, bisa dilihat apakah ada bulan dengan variasi curah hujan atau harga cabe yang lebih besar dibandingkan bulan lainnya.
+
 ## Hasil MSE Evaluation
-5 Data bulan
+5 Data dari bulan Januari - Mei
+
 ```
 Prediksi untuk Januari_harga:
 [[28026.16840285]
@@ -97,27 +122,3 @@ Prediksi untuk Mei_harga:
 Mean Squared Error: 28237494.888882816
 
 ```
-
-## Plot Regresi Linear
-
-<table>
-  <tr>
-    <td><img src="https://github.com/Indramustajab/Prediksi-Harga-Cabai-Terhadap-Cuaca-di-Jawa-Tengah/blob/main/Grafik%20Plot/download%20(1).png" width="1500" height="600" /></td>
-
-  </tr>
-</table>
-Penyebaran Data:
-- Dengan membandingkan titik-titik biru (actual) dan titik-titik merah (predicted), kita bisa melihat seberapa baik model regresi linier memprediksi harga cabe berdasarkan curah hujan.
-- Jika titik-titik merah mendekati titik-titik biru, berarti model memiliki performa yang baik dalam memprediksi harga cabe.
-Kesalahan Prediksi:
-
-- Jarak antara titik biru dan merah menunjukkan seberapa besar kesalahan prediksi (prediction error). Semakin dekat titik merah dengan titik biru, semakin kecil kesalahan prediksi untuk bulan tersebut.
-  
-Kecenderungan:
-- Plot ini juga dapat menunjukkan kecenderungan atau pola antara curah hujan dan harga cabe. Misalnya, apakah harga cabe cenderung naik atau turun dengan bertambahnya curah hujan.
-
-Variasi Data:
-
-- Plot juga membantu kita memahami variasi dalam data curah hujan dan harga cabe untuk setiap bulan. Misalnya, kita bisa melihat apakah ada bulan dengan variasi curah hujan atau harga cabe yang lebih besar dibandingkan bulan lainnya.
-<br></br>
-
